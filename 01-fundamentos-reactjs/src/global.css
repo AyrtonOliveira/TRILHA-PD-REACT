@@ -17,7 +17,16 @@
 }
 
 body {
- background: var (--cinza-900);
- color: var (--cinza-300);
- -webkit-font-smoothing: antialiased;
+  background: var (--cinza-900);
+  color: var(--verde-500);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
